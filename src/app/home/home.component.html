@@ -1,0 +1,32 @@
+<html>
+
+<body>
+
+  <div class="home-container">
+    <header class="header">
+      <h1>Home</h1>
+
+      <nav class="nav-links">
+        <a routerLink="/signup" class="nav-link">Quizzes</a>
+        <a routerLink="/login" class="nav-link">Login</a>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <div class="welcome-section">
+        <h2>Welcome to the Online Quiz!</h2>
+        <p>
+          Test your knowledge with our collection of quizzes. Choose a quiz category
+          and start answering questions to challenge yourself.
+        </p>
+      </div>
+
+      <div class="cta-section">
+        <a routerLink="/dashboard" class="cta-button">Get Started</a>
+      </div>
+    </main>
+  </div>
+  <router-outlet> </router-outlet>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<html>
+
+<body>
+  <div class="auth-container">
+    <h1 class="title">Online Quiz</h1>
+
+    <div class="auth-form">
+      <h2>Sign Up</h2>
+      <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Divya Kumari" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="divyakumari749193@gmail.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+      </form>
+
+      <div class="auth-switch">
+        <p>Already have an account? <a routerLink="/login">Login</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
