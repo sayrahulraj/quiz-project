@@ -1,0 +1,10 @@
+{
+  "routes": {
+    "/": {},
+    "/dashboard": {},
+    "/forgot-password": {},
+    "/home": {},
+    "/login": {},
+    "/signup": {}
+  }
+}
