@@ -1,10 +1,10 @@
 {
   "routes": {
-    "/": {},
-    "/dashboard": {},
-    "/forgot-password": {},
-    "/home": {},
-    "/login": {},
-    "/signup": {}
+    "/quiz-project": {},
+    "/quiz-project/dashboard": {},
+    "/quiz-project/forgot-password": {},
+    "/quiz-project/home": {},
+    "/quiz-project/login": {},
+    "/quiz-project/signup": {}
   }
 }

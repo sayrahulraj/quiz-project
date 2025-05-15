@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: 'https://sayrahulraj.github.io/quiz-project',
   supportedLocales: {
   "en-US": ""
 },
