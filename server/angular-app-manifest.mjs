@@ -32,14 +32,14 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 495, hash: '7ce73a8595bd6f8fe716a115b21bb7a3bf92bbfd577bc9a1f4dcd4e824f6af45', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1008, hash: 'cc90cff7114890acaf9f6672dfff0286781ae209a9963046dcdee68be4ac652c', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 778, hash: '9d1ae3f9d0986f140a39f5689e69e85ca187c17cc633b93df2e93abf32fa3017', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'home/index.html': {size: 3775, hash: 'e8879bc8f4677642b4685098bbc7a32ed662a07a69466b838f8b8a12215de1af', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
-    'login/index.html': {size: 4366, hash: 'a65325d4aa10982f39ea0acf849ebd34558355d5364209ab130f629c72441e37', text: () => import('./assets-chunks/login_index_html.mjs').then(m => m.default)},
-    'signup/index.html': {size: 4290, hash: '733c5eb70b3c02108c665babd858fc3503732bfc95e88a25b2ef980607708b07', text: () => import('./assets-chunks/signup_index_html.mjs').then(m => m.default)},
-    'dashboard/index.html': {size: 761, hash: 'e3ebbe8a69be8f297782051ae74b4e3eec1924ed881cec1ab824ed628b49eba4', text: () => import('./assets-chunks/dashboard_index_html.mjs').then(m => m.default)},
-    'forgot-password/index.html': {size: 779, hash: 'dc65778f4ad9bb7b4410afb03f152d8bd811067060620fcbc6f8173e9110ed68', text: () => import('./assets-chunks/forgot-password_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 495, hash: '30cc8f90016ee8c94f665402472c58beeb8830dc95fa1c6fd98da60f923527c7', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1008, hash: '39d24c3aad234f6751b9142ae0a7b1f7ea5343158e7a64bfaa503fcd55e438b5', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'home/index.html': {size: 3775, hash: '84205c41911bad4152411a68b516a0a6d43b624d3b99794459e8f3a7b6efc6da', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
+    'signup/index.html': {size: 4221, hash: '56a62fb79193e5e4dd9852bcee7eb5c316e454d5d2af9afb560a3f8e06c53f3c', text: () => import('./assets-chunks/signup_index_html.mjs').then(m => m.default)},
+    'forgot-password/index.html': {size: 779, hash: '732e05a1127fac18b9a55d79f2dce2d4d2abc7651216513c2104dc49b939dd65', text: () => import('./assets-chunks/forgot-password_index_html.mjs').then(m => m.default)},
+    'dashboard/index.html': {size: 761, hash: '05e9fb4c3de728708ac18cc2074af9307dbcfcddd494273c7fc27dfc74b49d6f', text: () => import('./assets-chunks/dashboard_index_html.mjs').then(m => m.default)},
+    'login/index.html': {size: 4366, hash: '9582b1fe29a60e9f87ae4fe0c0b4a7e1c880f6aee23cbc229c2a3454f37e899d', text: () => import('./assets-chunks/login_index_html.mjs').then(m => m.default)},
+    'index.html': {size: 778, hash: 'fde9669bcd6120660e703ffd4c0ab1f507af2abc30e1b480ff1dab344e0df7dd', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };
